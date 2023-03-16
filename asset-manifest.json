@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-wedding/static/css/main.41224a85.css",
+    "main.js": "/my-wedding/static/js/main.f87dddb7.js",
+    "static/js/787.f9610b1b.chunk.js": "/my-wedding/static/js/787.f9610b1b.chunk.js",
+    "static/media/folha-2.png": "/my-wedding/static/media/folha-2.0de68e7955ee913f31d1.png",
+    "static/media/folha.png": "/my-wedding/static/media/folha.e440017739e1c5c88a98.png",
+    "static/media/AmsterdamOne.ttf": "/my-wedding/static/media/AmsterdamOne.8cac007d348adcf279c9.ttf",
+    "index.html": "/my-wedding/index.html",
+    "main.41224a85.css.map": "/my-wedding/static/css/main.41224a85.css.map",
+    "main.f87dddb7.js.map": "/my-wedding/static/js/main.f87dddb7.js.map",
+    "787.f9610b1b.chunk.js.map": "/my-wedding/static/js/787.f9610b1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41224a85.css",
+    "static/js/main.f87dddb7.js"
+  ]
+}
