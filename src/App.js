@@ -9,9 +9,11 @@ function App() {
   return (
     <ParallaxProvider>
       <div className="App">
-        <div className='home'>
-          <h1 className='wedding-label cormorant'>Casamento</h1>
-          <h1 className='wedding-title amsterdam main-color animate__animated animate__fadeInUp'>Maria Luísa & Matheus</h1>
+        <div className='home center'>
+          <h1 className='wedding-label center cormorant animate__animated animate__fadeInUp'>Casamento</h1>
+          <Parallax speed={10}>
+            <h1 className=' center wedding-title amsterdam main-color animate__animated animate__fadeInUp'>Maria Luísa & Matheus</h1>
+          </Parallax>
           <Parallax speed={10} className="paralax-1">
             <img className="paralax-image paralax-image-1 animate__animated animate__fadeInUp" src={folha} />
           </Parallax>
@@ -24,7 +26,15 @@ function App() {
           <Parallax speed={10} className="paralax-4">
             <img className="paralax-image animate__animated animate__fadeInUp" src={folha2} />
           </Parallax>
+          <div className='navbar'>
+            <span className='cormorant'>INFORMAÇÕES</span>
+            <span className='cormorant'>PRESENTES</span>
+            <span className='cormorant'>PRESENÇA</span>
+          </div>
         </div>
+        <section id="informacoes" className='section center'>
+          <h1 className='cormorant center'>Informações</h1>
+        </section>
         <br />
         <br />
         <br />
