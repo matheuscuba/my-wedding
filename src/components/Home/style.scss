@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap");
+@import './../../assets/styles/colors.scss';
+
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	position: relative;
+}
+
+.wedding-title {
+	font-size: 3em;
+	line-height: 2.2;
+}
+
+.paralax-1 {
+	position: absolute;
+	left: -2%;
+	top: 0;
+	width: 25vh;
+
+	@media (min-width: 700px) { 
+		width: 25vw;
+	}
+}
+
+.paralax-2 {
+	position: absolute;
+	right: -2%;
+	bottom: 5%;
+	width: 25vh;
+
+	@media (min-width: 700px) { 
+		width: 25vw;
+	}
+
+	.paralax-image-2 {
+		-webkit-transform: scaleX(-1) scaleY(-1);
+		transform: scaleX(-1) scaleY(-1);
+	}
+}
+
+
+.paralax-3 {
+	position: absolute;
+	left: -5%;
+	bottom: 0;
+	width: 40vh;
+
+	@media (min-width: 700px) { 
+		width: 40vw;
+	}
+
+	.paralax-image-3 {
+		-webkit-transform: scaleX(-1) scaleY(-1);
+		transform: scaleX(-1) scaleY(-1);
+	}
+} 
+
+.paralax-4 {
+	position: absolute;
+	right: -5%;
+	top: -10%;
+	width: 40vh;
+
+	@media (min-width: 700px) { 
+		width: 40vw;
+	}
+}
+
+.paralax-image {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	display: flex;
+	margin-top: 50px;
+	width: 40vh;
+	justify-content: center;
+	align-items: center;
+
+	a{
+		z-index: 2;
+		text-decoration: none;
+		&:hover{		
+			span{
+				color: $mainColor;
+			}
+		}
+	}
+
+	span {
+		margin: 0 8px;
+		font-size: 13 pt;
+		color: #b48b48;
+		font-weight: bold;
+		transition: .3s;
+	}
+}
