@@ -1,6 +1,7 @@
 import { Parallax } from "react-scroll-parallax";
 import folha from "./../../assets/img/folha.png";
 import folha2 from "./../../assets/img/folha-2.png";
+import Wedding from './../../assets/svgs/wedding.js'
 
 import './style.scss';
 
@@ -10,6 +11,7 @@ export default function Home(isMobile){
         <h1 className="wedding-label center cormorant animate__animated animate__fadeInUp">
             Casamento
         </h1>
+        {/* <Wedding  /> */}
         <Parallax speed={10}>
             <h1 className=" center wedding-title amsterdam main-color animate__animated animate__fadeInUp">
                 Maria Luísa & Matheus
