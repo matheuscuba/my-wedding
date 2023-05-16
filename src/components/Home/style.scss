@@ -13,6 +13,11 @@
 .wedding-title {
 	font-size: 3em;
 	line-height: 2.2;
+
+	@media (max-width: 640px) { 
+		font-size: 2em;
+		max-width: 70vw;
+	}
 }
 
 .paralax-1 {
@@ -98,5 +103,13 @@
 		color: #b48b48;
 		font-weight: bold;
 		transition: .3s;
+	}
+
+	@media (max-width: 640px) { 
+		flex-direction: column;
+
+		a{
+			margin-bottom: 10px;
+		}
 	}
 }

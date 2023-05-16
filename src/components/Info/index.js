@@ -4,13 +4,13 @@ import { FlapDisplay, Presets } from 'react-split-flap-effect'
 import 'react-split-flap-effect/extras/themes.css'
 import './info.scss';
 
-export default function Info(){
-
+export default function Info({isMobile}){
+  
     const Completionist = () => <span className="cormorant">É hoje!</span>;
-    const renderFlap = (number, digits) => <FlapDisplay
-      className="XL lightBordered flap"
+    const renderFlap = (number, digits, timing) => <FlapDisplay
+      className={`${isMobile ? 'L' : 'XL'} lightBordered flap`}
       length={digits}
-      timing={10}
+      timing={timing}
       chars={Presets.ALPHANUM + ',!'}
       value={`${number}`}
       hinge={false}
@@ -25,21 +25,21 @@ export default function Info(){
             return (
               <div className="countdown-wrapper">
                 <span className="cormorant">
-                  {renderFlap(days, 3)}
+                  {renderFlap(days, 3, 10)}
                   dias
                 </span>
                 <span className="cormorant">
-                  {renderFlap(hours, 2)}
+                  {renderFlap(hours, 2, 10)}
                   horas
                 </span>
                 <span className="cormorant">
-                  {renderFlap(minutes, 2)}
+                  {renderFlap(minutes, 2, 10)}
                   minutos
-                </span> 
-                <span className="cormorant">
-                  {renderFlap(seconds, 2)}
-                  segundos
                 </span>
+                { !isMobile ? <span className="cormorant">
+                  {renderFlap(seconds, 2, 5)}
+                  segundos
+                </span> : null }
               </div>
             )
         }

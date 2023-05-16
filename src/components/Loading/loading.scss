@@ -1,0 +1,41 @@
+@import './../../assets/styles/colors.scss';
+
+.loading-wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wedding-wrapper{
+        width: 15vh;
+    }
+
+    .welcome{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        max-width: 70vw;
+
+        .family{
+            font-weight: 500;
+            color: $mainColor;
+        }
+
+        span{
+            display: block;
+        }
+    }
+}
