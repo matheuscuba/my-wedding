@@ -14,10 +14,8 @@ function App() {
 	const [loading, setLoading] = useState(true);
 	const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
 
-	setTimeout(() => setLoading(false), 3800);
-
 	if(loading)
-		return <Loading />;
+		return <Loading onClick={() => setLoading(false)} />;
 
 	return (
 		<ReactFullpage.Wrapper
