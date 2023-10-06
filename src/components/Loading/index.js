@@ -10,17 +10,6 @@ function b64DecodeUnicode(str) {
     }).join(''));
 }
 
-function view(url) {
-        const p = url.split("/");
-        var t = '';
-        for (let i = 0; i < p.length; i++) {
-            if(i==2){
-                t += p[i].replaceAll('-', '--').replaceAll('.','-')+atob('LnRyYW5zbGF0ZS5nb29n')+'/';
-            } else { if(i != p.length-1){ t += p[i]+'/'; } else { t += p[i]; } }
-        }
-        return encodeURI(t);
-}
-
 function findConfig(username){
     return ConfigInstagram[username];
 }
@@ -34,8 +23,7 @@ export default function Loading({ onClick }){
     let name;
     let images = [];
     let multiple = false;
-
-
+    
     if(d) {
         try {
             let _data = b64DecodeUnicode(d);
@@ -45,7 +33,12 @@ export default function Loading({ onClick }){
             let _i = Array.from(data.i);
 
             if(_i && _i.length){
-                images = _i.map(x => view(findConfig(x)));
+                images = _i.map(x => {
+                    if(/^http/.test(x))
+                        return x;
+                    else
+                        return `https://secret-successful-comic.glitch.me/?username=${x}`;
+                });
             }
         } catch (error) {
             console.log('error', error);
