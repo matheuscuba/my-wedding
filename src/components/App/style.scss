@@ -1,4 +1,31 @@
 .App {
 	text-align: center;
 	position: relative;
+	overflow: hidden;
+}
+
+.mt {
+	margin-top: 150px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+
+	&.center {
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.col {
+	flex-direction: column;
+}
+
+.space{
+	justify-content: space-between;
+}
+
+.text-center{
+	text-align: center;
 }

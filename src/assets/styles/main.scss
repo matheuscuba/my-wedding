@@ -41,6 +41,15 @@ code {
 	font-weight: lighter;
 }
 
+h3.cormorant{
+	@media (max-width: 700px) { 
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+}
+
 .amsterdam {
 	font-family: Amsterdam;
 	font-weight: lighter;
@@ -52,4 +61,11 @@ code {
 
 .main-color {
 	color: $mainColor;
+}
+
+footer{
+	margin-top: 150px;
+	background-color: $mainColor;
+	width: 100vw;
+	height: 200px;
 }
