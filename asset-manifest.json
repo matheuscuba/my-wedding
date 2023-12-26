@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4588aa46.css",
-    "main.js": "/static/js/main.86c6b264.js",
+    "main.css": "/static/css/main.a5e9d8de.css",
+    "main.js": "/static/js/main.476898a7.js",
+    "static/media/michele.png": "/static/media/michele.9bf7cca323e5bd2b1366.png",
     "static/media/folha-2.png": "/static/media/folha-2.0de68e7955ee913f31d1.png",
     "static/media/folha.png": "/static/media/folha.e440017739e1c5c88a98.png",
     "static/media/AmsterdamOne.ttf": "/static/media/AmsterdamOne.8cac007d348adcf279c9.ttf",
     "static/media/paper.png": "/static/media/paper.426710c1807e999fe6fb.png",
+    "static/media/pix.png": "/static/media/pix.3340d31ca2f3dc0d830c.png",
+    "static/media/magalu.png": "/static/media/magalu.2328524d908402bed466.png",
     "index.html": "/index.html",
-    "main.4588aa46.css.map": "/static/css/main.4588aa46.css.map",
-    "main.86c6b264.js.map": "/static/js/main.86c6b264.js.map"
+    "main.a5e9d8de.css.map": "/static/css/main.a5e9d8de.css.map",
+    "main.476898a7.js.map": "/static/js/main.476898a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4588aa46.css",
-    "static/js/main.86c6b264.js"
+    "static/css/main.a5e9d8de.css",
+    "static/js/main.476898a7.js"
   ]
 }
