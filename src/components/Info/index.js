@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import Countdown from 'react-countdown';
+import michele from './../../assets/img/michele.png'
 import { FlapDisplay, Presets } from 'react-split-flap-effect'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import 'react-split-flap-effect/extras/themes.css'
 import './info.scss';
 
 const images = [
-  "https://picsum.photos/700/700?image=1050",
-  "https://picsum.photos/700/700?image=206",
-  "https://picsum.photos/700/700?image=106",
-  "https://picsum.photos/700/700?image=306",
-  "https://picsum.photos/700/700?image=506",
-  "https://picsum.photos/900/700?image=102",
+  "https://i.imgur.com/gJZVJYa.jpg",
+  "https://i.imgur.com/lwpJRwl.jpg",
+  "https://i.imgur.com/rukEBPv.jpg",
+  "https://i.imgur.com/fcPcNA9.jpg",
+  "https://i.imgur.com/MZuGgNb.jpg",
+  "https://i.imgur.com/lNDN3DV.jpg",
+  "https://i.imgur.com/fCli5D1.jpg"
 ]
 
 export default function Info({isMobile}){
@@ -64,13 +66,25 @@ export default function Info({isMobile}){
                   date={"2024-06-01T17:30:00"} 
                   renderer={renderer}
               />
-
-              <div id="localizacao" className="">
-
+          </section>
+          <section id="mapa" className="section center">
+              <h1 className="cormorant center">Local</h1>
+              <h3 className="countdown-title cormorant">Endereço e como chegar no local do evento</h3>
+              <div className="flex center">
+                <img className="michele" src={michele} />
+                <div className="flex col michele-wrapper" style={{ textAlign: 'left', fontSize: '120%', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                  <h3 className="cormorant">Espaço Michele de Moraes</h3>
+                  <p className="cormorant">
+                    Rua Padre Geraldo Spettmann, 639 - Humaitá, Tubarão - SC
+                  </p>
+                  <a className="btn cormorant" href="https://maps.app.goo.gl/VkvuYZnrRp5ozWqJA">
+                    Abrir Local no Mapa
+                  </a>
+                </div>
               </div>
           </section>
           <section id="galeria">
-            <h1 className="cormorant center">Galeria</h1>
+            <h1 className="cormorant center mt">Galeria</h1>
             <h3 className="countdown-title cormorant">Alguns dos nossos momentos</h3>
             <ResponsiveMasonry
                   columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}

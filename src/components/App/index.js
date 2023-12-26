@@ -1,6 +1,7 @@
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import { useMediaQuery } from "react-responsive";
 import ReactFullpage from '@fullpage/react-fullpage';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import "./style.scss";
 
@@ -21,12 +22,12 @@ function App() {
 		return <Loading onClick={() => setLoading(false)} />;
 
 		return (
-				<div className="App">
-					<HomeSection isMobile={isMobile} />
-					<InfoSection isMobile={isMobile} />
-					<GiftsSection isMobile={isMobile} />
-					<FooterSection isMobile={isMobile} />
-				</div>	
+			<div className="App">
+				<HomeSection isMobile={isMobile} />
+				<InfoSection isMobile={isMobile} />
+				<GiftsSection isMobile={isMobile} />
+				<FooterSection isMobile={isMobile} />
+			</div>	
 		);
 
 	// return (

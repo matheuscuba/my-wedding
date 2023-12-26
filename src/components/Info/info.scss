@@ -29,3 +29,26 @@
         }
 	}
 }
+
+.michele{
+    width: 40%;
+
+    @media (max-width: 640px) { 
+        width: 80%;
+	}
+}
+
+.michele-wrapper{
+    @media (max-width: 640px) { 
+        text-align: center !important;
+
+        p {
+            max-width: 80%;
+            margin: 10px auto;
+        }
+
+        a{
+            margin: 20px auto;
+        }
+	}
+}
