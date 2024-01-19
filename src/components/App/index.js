@@ -8,6 +8,7 @@ import "./style.scss";
 import HomeSection from './../Home';
 import InfoSection from './../Info';
 import GiftsSection from './../Gifts';
+import RSVPSection from './../RSVP';
 
 import Loading from "../Loading";
 import { useState } from "react";
@@ -26,6 +27,7 @@ function App() {
 				<HomeSection isMobile={isMobile} />
 				<InfoSection isMobile={isMobile} />
 				<GiftsSection isMobile={isMobile} />
+				<RSVPSection isMobile={isMobile} />
 				<FooterSection isMobile={isMobile} />
 			</div>	
 		);

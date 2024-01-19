@@ -55,7 +55,7 @@ export default function Home(isMobile){
                 <div className="navbar">
                     <a href="#informacoes"><span className="cormorant">INFORMAÇÕES</span></a>
                     <a href="#presentes"><span className="cormorant">PRESENTES</span></a>
-                    <a href=""><span className="cormorant">PRESENÇA</span></a>
+                    <a href="#presenca"><span className="cormorant">PRESENÇA</span></a>
                 </div>
             </div>
         </div>
