@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a5e9d8de.css",
-    "main.js": "/static/js/main.9fddec07.js",
+    "main.js": "/static/js/main.89703c7d.js",
+    "static/media/hospedagem.pdf": "/static/media/hospedagem.a98b444e559c922e75a8.pdf",
     "static/media/michele.png": "/static/media/michele.9bf7cca323e5bd2b1366.png",
     "static/media/folha-2.png": "/static/media/folha-2.0de68e7955ee913f31d1.png",
     "static/media/folha.png": "/static/media/folha.e440017739e1c5c88a98.png",
@@ -11,10 +12,10 @@
     "static/media/magalu.png": "/static/media/magalu.2328524d908402bed466.png",
     "index.html": "/index.html",
     "main.a5e9d8de.css.map": "/static/css/main.a5e9d8de.css.map",
-    "main.9fddec07.js.map": "/static/js/main.9fddec07.js.map"
+    "main.89703c7d.js.map": "/static/js/main.89703c7d.js.map"
   },
   "entrypoints": [
     "static/css/main.a5e9d8de.css",
-    "static/js/main.9fddec07.js"
+    "static/js/main.89703c7d.js"
   ]
 }
