@@ -6,6 +6,8 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import 'react-split-flap-effect/extras/themes.css'
 import './info.scss';
 
+import HospedagemSection from '../Hospedagem';
+
 const images = [
   "https://i.imgur.com/gJZVJYa.jpg",
   "https://i.imgur.com/lwpJRwl.jpg",
@@ -83,6 +85,7 @@ export default function Info({isMobile}){
                 </div>
               </div>
           </section>
+          <HospedagemSection />
           <section id="galeria">
             <h1 className="cormorant center mt">Galeria</h1>
             <h3 className="countdown-title cormorant">Alguns dos nossos momentos</h3>
