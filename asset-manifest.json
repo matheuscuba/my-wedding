@@ -1,21 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.a5e9d8de.css",
-    "main.js": "/static/js/main.89703c7d.js",
+    "main.js": "/static/js/main.25eac5bb.js",
     "static/media/hospedagem.pdf": "/static/media/hospedagem.a98b444e559c922e75a8.pdf",
     "static/media/michele.png": "/static/media/michele.9bf7cca323e5bd2b1366.png",
     "static/media/folha-2.png": "/static/media/folha-2.0de68e7955ee913f31d1.png",
     "static/media/folha.png": "/static/media/folha.e440017739e1c5c88a98.png",
+    "static/media/gallery-11.jpeg": "/static/media/gallery-11.d5c349141a161049694e.jpeg",
+    "static/media/gallery-4.jpeg": "/static/media/gallery-4.de76799e559799160f9c.jpeg",
+    "static/media/gallery-14.jpeg": "/static/media/gallery-14.774b54b4371ea7f671ef.jpeg",
+    "static/media/gallery-13.jpeg": "/static/media/gallery-13.b55d8a69397864f48cb0.jpeg",
+    "static/media/gallery-8.jpeg": "/static/media/gallery-8.cbba80460a8995c49619.jpeg",
+    "static/media/gallery-9.jpeg": "/static/media/gallery-9.fcda59ba921ca7d86bbe.jpeg",
+    "static/media/gallery-5.jpeg": "/static/media/gallery-5.26d0ae2b1b10c955094b.jpeg",
+    "static/media/gallery-7.jpeg": "/static/media/gallery-7.39a5acf19bbb7b7334ec.jpeg",
     "static/media/AmsterdamOne.ttf": "/static/media/AmsterdamOne.8cac007d348adcf279c9.ttf",
+    "static/media/gallery-12.jpeg": "/static/media/gallery-12.595858fb8d63fb98ad8f.jpeg",
+    "static/media/gallery-1.jpeg": "/static/media/gallery-1.7d740a5b312ade13946e.jpeg",
+    "static/media/gallery-6.jpeg": "/static/media/gallery-6.ff8f6c74c37e6662548d.jpeg",
+    "static/media/gallery-10.jpeg": "/static/media/gallery-10.fa268ed7db04f6f9bcc5.jpeg",
     "static/media/paper.png": "/static/media/paper.426710c1807e999fe6fb.png",
+    "static/media/gallery-2.jpeg": "/static/media/gallery-2.2031e1f826f91a93faa4.jpeg",
+    "static/media/gallery-3.jpeg": "/static/media/gallery-3.2557d27aa5f2e7ce29ca.jpeg",
     "static/media/pix.png": "/static/media/pix.3340d31ca2f3dc0d830c.png",
     "static/media/magalu.png": "/static/media/magalu.2328524d908402bed466.png",
     "index.html": "/index.html",
     "main.a5e9d8de.css.map": "/static/css/main.a5e9d8de.css.map",
-    "main.89703c7d.js.map": "/static/js/main.89703c7d.js.map"
+    "main.25eac5bb.js.map": "/static/js/main.25eac5bb.js.map"
   },
   "entrypoints": [
     "static/css/main.a5e9d8de.css",
-    "static/js/main.89703c7d.js"
+    "static/js/main.25eac5bb.js"
   ]
 }
