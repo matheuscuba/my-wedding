@@ -8,14 +8,36 @@ import './info.scss';
 
 import HospedagemSection from '../Hospedagem';
 
+import gallery1 from './../../assets/img/gallery/gallery-1.jpeg';
+import gallery2 from './../../assets/img/gallery/gallery-2.jpeg';
+import gallery3 from './../../assets/img/gallery/gallery-3.jpeg';
+import gallery4 from './../../assets/img/gallery/gallery-4.jpeg';
+import gallery5 from './../../assets/img/gallery/gallery-5.jpeg';
+import gallery6 from './../../assets/img/gallery/gallery-6.jpeg';
+import gallery7 from './../../assets/img/gallery/gallery-7.jpeg';
+import gallery8 from './../../assets/img/gallery/gallery-8.jpeg';
+import gallery9 from './../../assets/img/gallery/gallery-9.jpeg';
+import gallery10 from './../../assets/img/gallery/gallery-10.jpeg';
+import gallery11 from './../../assets/img/gallery/gallery-11.jpeg';
+import gallery12 from './../../assets/img/gallery/gallery-12.jpeg';
+import gallery13 from './../../assets/img/gallery/gallery-13.jpeg';
+import gallery14 from './../../assets/img/gallery/gallery-14.jpeg';
+
 const images = [
-  "https://i.imgur.com/gJZVJYa.jpg",
-  "https://i.imgur.com/lwpJRwl.jpg",
-  "https://i.imgur.com/rukEBPv.jpg",
-  "https://i.imgur.com/fcPcNA9.jpg",
-  "https://i.imgur.com/MZuGgNb.jpg",
-  "https://i.imgur.com/lNDN3DV.jpg",
-  "https://i.imgur.com/fCli5D1.jpg"
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10,
+  gallery11,
+  gallery12,
+  gallery13,
+  gallery14,
 ]
 
 export default function Info({isMobile}){
